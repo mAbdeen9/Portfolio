@@ -9,7 +9,7 @@
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
     <!-- SWIPER CSS  -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Mohammd Abdeen Dev 🔮</title>
@@ -43,7 +43,7 @@
             </li>
             <li class="nav__item">
               <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                <i class="uil uil-scenery nav__icon"></i> PortfoLio
               </a>
             </li>
             <li class="nav__item">
@@ -463,11 +463,96 @@
         </div>
       </section>
 
-      <!--==================== SERVICES ====================-->
-      <section class="services section" id="services"></section>
+      <!-- <section class="services section" id="services"></section> SERVICES -->
 
-      <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio"></section>
+      <!-- PORTFOLIO -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+        <div class="portfolio__container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- porto 1 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="/assets/img/gal-app.png"
+                alt="gal-tellcom"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Gall-Tellcom Orders App</h3>
+                <p class="portfolio__description">
+                  web application responsive for all devices , this app is used
+                  by gall-tellcom cables and fiber solutions company , they have
+                  more than 50 technicians using the app for ordering equipments
+                  , i built it with MERN stack
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=udGSN106H3U"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  >Demo <i class="uil uil-arrow-right button__icon"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- porto 2 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="/assets/img/crm-ang.png"
+                alt="crm-tellcom"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">CRM App</h3>
+                <p class="portfolio__description">
+                  Simple CRM (Customer relationship management) desktop web app
+                  <mark>not responsive</mark> , i built it with Angular &
+                  firebase
+                </p>
+                <a
+                  target="_blank"
+                  href="https://crm-project-angular.web.app/login"
+                  class="button button--flex button--small portfolio__button"
+                  >Demo <i class="uil uil-arrow-right button__icon"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- porto 3 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="/assets/img/calc-clo.png"
+                alt="gal-tellcom"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Simple Calculator</h3>
+                <p class="portfolio__description">
+                  Simple Calculator , vanilla javascript
+                </p>
+                <a
+                  target="_blank"
+                  href="https://github.com/mAbdeen9/simpleCalculator"
+                  class="button button--flex button--small portfolio__button"
+                  >Demo <i class="uil uil-arrow-right button__icon"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <br />
+          <br />
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
       <!--==================== PROJECT IN MIND ====================-->
       <section class="project section"></section>
@@ -485,7 +570,7 @@
     <!--==================== SCROLL TOP ====================-->
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
