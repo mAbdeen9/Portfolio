@@ -598,32 +598,46 @@
             </div>
           </div>
 
-          <form class="contact__form grid">
+          <form
+            action="https://formspree.io/f/myyvwakk"
+            method="post"
+            class="contact__form grid"
+          >
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <lable class="contact__label">Name</lable>
-                <input type="text" class="contact__input" />
+                <input
+                  name="Name"
+                  type="text"
+                  class="contact__input"
+                  required
+                />
               </div>
               <div class="contact__content">
                 <lable class="contact__label">E-mail</lable>
-                <input type="email" class="contact__input" />
+                <input
+                  name="Email"
+                  type="email"
+                  class="contact__input"
+                  required
+                />
               </div>
               <div class="contact__content">
                 <lable class="contact__label">Message</lable>
                 <textarea
                   class="contact__input"
-                  name=""
-                  id=""
+                  name="message"
                   cols="0"
                   rows="7"
+                  required
                 ></textarea>
               </div>
             </div>
 
             <div>
-              <a href="#" class="button button--flex">
+              <button type="submit" class="button button--flex">
                 Send Message <i class="uil uil-message button__icon"></i>
-              </a>
+              </button>
             </div>
           </form>
         </div>

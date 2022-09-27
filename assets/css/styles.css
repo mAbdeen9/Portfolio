@@ -846,6 +846,11 @@ img {
   }
 }
 
+button {
+  border: 0;
+  cursor: pointer;
+}
+
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .home__content {
